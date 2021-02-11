@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "49783304805",
+    "project_id": "octave-220",
+    "storage_bucket": "octave-220.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49783304805:android:f08f0a6e520f59a398cc8c",
+        "android_client_info": {
+          "package_name": "code.name.score.octave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49783304805-rnlcmmaadhe491q7qe4u3dgp7mmhgedd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP6MY7khYPzfzqZ2JMF3CRprCh99RKo4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49783304805-rnlcmmaadhe491q7qe4u3dgp7mmhgedd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

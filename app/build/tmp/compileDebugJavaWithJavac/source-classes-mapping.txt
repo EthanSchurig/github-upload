@@ -1,0 +1,307 @@
+code/name/score/octave/util/ArtistSignatureUtil.java
+ code.name.score.octave.util.ArtistSignatureUtil
+code/name/score/octave/service/MusicService.java
+ code.name.score.octave.service.MusicService
+ code.name.score.octave.service.MusicService$1
+ code.name.score.octave.service.MusicService$2
+ code.name.score.octave.service.MusicService$3
+ code.name.score.octave.service.MusicService$4
+ code.name.score.octave.service.MusicService$5
+ code.name.score.octave.service.MusicService$6
+ code.name.score.octave.service.MusicService$7
+ code.name.score.octave.service.MusicService$8
+ code.name.score.octave.service.MusicService$9
+ code.name.score.octave.service.MusicService$9$1
+ code.name.score.octave.service.MusicService$MusicBinder
+code/name/score/octave/util/FileUtil.java
+ code.name.score.octave.util.FileUtil
+code/name/score/octave/network/model/LastFmArtist.java
+ code.name.score.octave.network.model.LastFmArtist
+ code.name.score.octave.network.model.LastFmArtist$Artist
+ code.name.score.octave.network.model.LastFmArtist$Artist$Bio
+ code.name.score.octave.network.model.LastFmArtist$Artist$Image
+ code.name.score.octave.network.model.LastFmArtist$Artist$Stats
+code/name/score/octave/helper/StackBlur.java
+ code.name.score.octave.helper.StackBlur
+ code.name.score.octave.helper.StackBlur$BlurTask
+code/name/score/octave/glide/audiocover/AudioFileCover.java
+ code.name.score.octave.glide.audiocover.AudioFileCover
+code/name/score/octave/glide/audiocover/AudioFileCoverFetcher.java
+ code.name.score.octave.glide.audiocover.AudioFileCoverFetcher
+code/name/score/octave/db/LyricsDao_Impl.java
+ code.name.score.octave.db.LyricsDao_Impl
+ code.name.score.octave.db.LyricsDao_Impl$1
+ code.name.score.octave.db.LyricsDao_Impl$2
+ code.name.score.octave.db.LyricsDao_Impl$3
+code/name/score/octave/repository/SortedCursor.java
+ code.name.score.octave.repository.SortedCursor
+code/name/score/octave/views/VerticalTextView.java
+ code.name.score.octave.views.VerticalTextView
+code/name/score/octave/misc/DialogAsyncTask.java
+ code.name.score.octave.misc.DialogAsyncTask
+code/name/score/octave/util/SwipeAndDragHelper.java
+ code.name.score.octave.util.SwipeAndDragHelper
+ code.name.score.octave.util.SwipeAndDragHelper$ActionCompletionContract
+code/name/score/octave/glide/ProfileBannerGlideRequest.java
+ code.name.score.octave.glide.ProfileBannerGlideRequest
+ code.name.score.octave.glide.ProfileBannerGlideRequest$BitmapBuilder
+ code.name.score.octave.glide.ProfileBannerGlideRequest$Builder
+code/name/score/octave/activities/LicenseActivity.java
+ code.name.score.octave.activities.LicenseActivity
+code/name/score/octave/util/ImageUtil.java
+ code.name.score.octave.util.ImageUtil
+code/name/score/octave/lyrics/LrcView.java
+ code.name.score.octave.lyrics.LrcView
+ code.name.score.octave.lyrics.LrcView$1
+ code.name.score.octave.lyrics.LrcView$2
+ code.name.score.octave.lyrics.LrcView$3
+ code.name.score.octave.lyrics.LrcView$4
+ code.name.score.octave.lyrics.LrcView$5
+ code.name.score.octave.lyrics.LrcView$OnPlayClickListener
+code/name/score/octave/lyrics/LrcUtils.java
+ code.name.score.octave.lyrics.LrcUtils
+code/name/score/octave/glide/AlbumGlideRequest.java
+ code.name.score.octave.glide.AlbumGlideRequest
+ code.name.score.octave.glide.AlbumGlideRequest$BitmapBuilder
+ code.name.score.octave.glide.AlbumGlideRequest$Builder
+ code.name.score.octave.glide.AlbumGlideRequest$PaletteBuilder
+code/name/score/octave/glide/audiocover/AudioFileCoverLoader.java
+ code.name.score.octave.glide.audiocover.AudioFileCoverLoader
+ code.name.score.octave.glide.audiocover.AudioFileCoverLoader$Factory
+code/name/score/octave/repository/SortedLongCursor.java
+ code.name.score.octave.repository.SortedLongCursor
+code/name/score/octave/views/StatusBarView.java
+ code.name.score.octave.views.StatusBarView
+code/name/score/octave/views/StatusBarMarginFrameLayout.java
+ code.name.score.octave.views.StatusBarMarginFrameLayout
+code/name/score/octave/db/HistoryDao_Impl.java
+ code.name.score.octave.db.HistoryDao_Impl
+ code.name.score.octave.db.HistoryDao_Impl$1
+ code.name.score.octave.db.HistoryDao_Impl$2
+ code.name.score.octave.db.HistoryDao_Impl$3
+ code.name.score.octave.db.HistoryDao_Impl$4
+ code.name.score.octave.db.HistoryDao_Impl$5
+ code.name.score.octave.db.HistoryDao_Impl$6
+code/name/score/octave/glide/palette/BitmapPaletteTarget.java
+ code.name.score.octave.glide.palette.BitmapPaletteTarget
+code/name/score/octave/util/ColorUtil.java
+ code.name.score.octave.util.ColorUtil
+ code.name.score.octave.util.ColorUtil$SwatchComparator
+code/name/score/octave/network/model/LastFmTrack.java
+ code.name.score.octave.network.model.LastFmTrack
+ code.name.score.octave.network.model.LastFmTrack$Track
+ code.name.score.octave.network.model.LastFmTrack$Track$Album
+ code.name.score.octave.network.model.LastFmTrack$Track$Album$Attr
+ code.name.score.octave.network.model.LastFmTrack$Track$Album$Image
+ code.name.score.octave.network.model.LastFmTrack$Track$Artist
+ code.name.score.octave.network.model.LastFmTrack$Track$Toptags
+ code.name.score.octave.network.model.LastFmTrack$Track$Toptags$Tag
+ code.name.score.octave.network.model.LastFmTrack$Track$Wiki
+code/name/score/octave/RetroBottomSheetBehavior.java
+ code.name.score.octave.RetroBottomSheetBehavior
+code/name/score/octave/views/ContributorsView.java
+ code.name.score.octave.views.ContributorsView
+code/name/score/octave/fragments/folder/FoldersFragment.java
+ code.name.score.octave.fragments.folder.FoldersFragment
+ code.name.score.octave.fragments.folder.FoldersFragment$1
+ code.name.score.octave.fragments.folder.FoldersFragment$AsyncFileLoader
+ code.name.score.octave.fragments.folder.FoldersFragment$ListPathsAsyncTask
+ code.name.score.octave.fragments.folder.FoldersFragment$ListPathsAsyncTask$LoadingInfo
+ code.name.score.octave.fragments.folder.FoldersFragment$ListPathsAsyncTask$OnPathsListedCallback
+ code.name.score.octave.fragments.folder.FoldersFragment$ListSongsAsyncTask
+ code.name.score.octave.fragments.folder.FoldersFragment$ListSongsAsyncTask$LoadingInfo
+ code.name.score.octave.fragments.folder.FoldersFragment$ListSongsAsyncTask$OnSongsListedCallback
+ code.name.score.octave.fragments.folder.FoldersFragment$ListingFilesDialogAsyncTask
+code/name/score/octave/glide/palette/BitmapPaletteResource.java
+ code.name.score.octave.glide.palette.BitmapPaletteResource
+code/name/score/octave/network/model/LastFmAlbum.java
+ code.name.score.octave.network.model.LastFmAlbum
+ code.name.score.octave.network.model.LastFmAlbum$Album
+ code.name.score.octave.network.model.LastFmAlbum$Album$Image
+ code.name.score.octave.network.model.LastFmAlbum$Album$Tag
+ code.name.score.octave.network.model.LastFmAlbum$Album$Tags
+ code.name.score.octave.network.model.LastFmAlbum$Album$Wiki
+code/name/score/octave/util/BitmapEditor.java
+ code.name.score.octave.util.BitmapEditor
+code/name/score/octave/providers/HistoryStore.java
+ code.name.score.octave.providers.HistoryStore
+ code.name.score.octave.providers.HistoryStore$RecentStoreColumns
+code/name/score/octave/db/BlackListStoreDao_Impl.java
+ code.name.score.octave.db.BlackListStoreDao_Impl
+ code.name.score.octave.db.BlackListStoreDao_Impl$1
+ code.name.score.octave.db.BlackListStoreDao_Impl$2
+ code.name.score.octave.db.BlackListStoreDao_Impl$3
+ code.name.score.octave.db.BlackListStoreDao_Impl$4
+ code.name.score.octave.db.BlackListStoreDao_Impl$5
+code/name/score/octave/views/PopupBackground.java
+ code.name.score.octave.views.PopupBackground
+code/name/score/octave/glide/ArtistGlideRequest.java
+ code.name.score.octave.glide.ArtistGlideRequest
+ code.name.score.octave.glide.ArtistGlideRequest$BitmapBuilder
+ code.name.score.octave.glide.ArtistGlideRequest$Builder
+ code.name.score.octave.glide.ArtistGlideRequest$PaletteBuilder
+code/name/score/octave/util/NavigationUtil.java
+ code.name.score.octave.util.NavigationUtil
+code/name/score/octave/util/color/ImageUtils.java
+ code.name.score.octave.util.color.ImageUtils
+code/name/score/octave/util/RippleUtils.java
+ code.name.score.octave.util.RippleUtils
+code/name/score/octave/glide/palette/BitmapPaletteTranscoder.java
+ code.name.score.octave.glide.palette.BitmapPaletteTranscoder
+code/name/score/octave/lyrics/LrcHelper.java
+ code.name.score.octave.lyrics.LrcHelper
+ code.name.score.octave.lyrics.LrcHelper$1
+code/name/score/octave/lyrics/Lrc.java
+ code.name.score.octave.lyrics.Lrc
+code/name/score/octave/misc/UpdateToastMediaScannerCompletionListener.java
+ code.name.score.octave.misc.UpdateToastMediaScannerCompletionListener
+code/name/score/octave/glide/palette/BitmapPaletteWrapper.java
+ code.name.score.octave.glide.palette.BitmapPaletteWrapper
+code/name/score/octave/adapter/CategoryInfoAdapter.java
+ code.name.score.octave.adapter.CategoryInfoAdapter
+ code.name.score.octave.adapter.CategoryInfoAdapter$ViewHolder
+code/name/score/octave/util/SAFUtil.java
+ code.name.score.octave.util.SAFUtil
+code/name/score/octave/util/Compressor.java
+ code.name.score.octave.util.Compressor
+code/name/score/octave/views/BreadCrumbLayout.java
+ code.name.score.octave.views.BreadCrumbLayout
+ code.name.score.octave.views.BreadCrumbLayout$Crumb
+ code.name.score.octave.views.BreadCrumbLayout$Crumb$1
+ code.name.score.octave.views.BreadCrumbLayout$SavedStateWrapper
+ code.name.score.octave.views.BreadCrumbLayout$SavedStateWrapper$1
+ code.name.score.octave.views.BreadCrumbLayout$SelectionCallback
+code/name/score/octave/util/TempUtils.java
+ code.name.score.octave.util.TempUtils
+code/name/score/octave/views/DrawableGradient.java
+ code.name.score.octave.views.DrawableGradient
+code/name/score/octave/model/lyrics/Lyrics.java
+ code.name.score.octave.model.lyrics.Lyrics
+code/name/score/octave/dialogs/BlacklistFolderChooserDialog.java
+ code.name.score.octave.dialogs.BlacklistFolderChooserDialog
+ code.name.score.octave.dialogs.BlacklistFolderChooserDialog$1
+ code.name.score.octave.dialogs.BlacklistFolderChooserDialog$FolderCallback
+ code.name.score.octave.dialogs.BlacklistFolderChooserDialog$FolderSorter
+code/name/score/octave/misc/GenericFileProvider.java
+ code.name.score.octave.misc.GenericFileProvider
+code/name/score/octave/db/RetroDatabase_Impl.java
+ code.name.score.octave.db.RetroDatabase_Impl
+ code.name.score.octave.db.RetroDatabase_Impl$1
+code/name/score/octave/adapter/base/AbsMultiSelectAdapter.java
+ code.name.score.octave.adapter.base.AbsMultiSelectAdapter
+code/name/score/octave/LanguageContextWrapper.java
+ code.name.score.octave.LanguageContextWrapper
+code/name/score/octave/lyrics/LrcEntry.java
+ code.name.score.octave.lyrics.LrcEntry
+code/name/score/octave/views/HeightFitSquareLayout.java
+ code.name.score.octave.views.HeightFitSquareLayout
+code/name/score/octave/providers/BlacklistStore.java
+ code.name.score.octave.providers.BlacklistStore
+ code.name.score.octave.providers.BlacklistStore$BlacklistStoreColumns
+code/name/score/octave/activities/saf/SAFGuideActivity.java
+ code.name.score.octave.activities.saf.SAFGuideActivity
+code/name/score/octave/model/lyrics/SynchronizedLyricsLRC.java
+ code.name.score.octave.model.lyrics.SynchronizedLyricsLRC
+code/name/score/octave/util/color/NotificationColorUtil.java
+ code.name.score.octave.util.color.NotificationColorUtil
+ code.name.score.octave.util.color.NotificationColorUtil$ColorUtilsFromCompat
+code/name/score/octave/BuildConfig.java
+ code.name.score.octave.BuildConfig
+code/name/score/octave/util/RetroColorUtil.java
+ code.name.score.octave.util.RetroColorUtil
+ code.name.score.octave.util.RetroColorUtil$SwatchComparator
+code/name/score/octave/views/CircularImageView.java
+ code.name.score.octave.views.CircularImageView
+code/name/score/octave/glide/SongGlideRequest.java
+ code.name.score.octave.glide.SongGlideRequest
+ code.name.score.octave.glide.SongGlideRequest$BitmapBuilder
+ code.name.score.octave.glide.SongGlideRequest$Builder
+ code.name.score.octave.glide.SongGlideRequest$PaletteBuilder
+code/name/score/octave/views/NetworkImageView.java
+ code.name.score.octave.views.NetworkImageView
+code/name/score/octave/volume/AudioVolumeContentObserver.java
+ code.name.score.octave.volume.AudioVolumeContentObserver
+code/name/score/octave/util/AutoGeneratedPlaylistBitmap.java
+ code.name.score.octave.util.AutoGeneratedPlaylistBitmap
+code/name/score/octave/util/color/MediaNotificationProcessor.java
+ code.name.score.octave.util.color.MediaNotificationProcessor
+ code.name.score.octave.util.color.MediaNotificationProcessor$1
+ code.name.score.octave.util.color.MediaNotificationProcessor$2
+ code.name.score.octave.util.color.MediaNotificationProcessor$2$1
+ code.name.score.octave.util.color.MediaNotificationProcessor$3
+ code.name.score.octave.util.color.MediaNotificationProcessor$OnPaletteLoadedListener
+code/name/score/octave/views/LollipopFixedWebView.java
+ code.name.score.octave.views.LollipopFixedWebView
+code/name/score/octave/views/ScrollingViewOnApplyWindowInsetsListener.java
+ code.name.score.octave.views.ScrollingViewOnApplyWindowInsetsListener
+code/name/score/octave/service/MultiPlayer.java
+ code.name.score.octave.service.MultiPlayer
+code/name/score/octave/activities/tageditor/WriteTagsAsyncTask.java
+ code.name.score.octave.activities.tageditor.WriteTagsAsyncTask
+code/name/score/octave/providers/SongPlayCountStore.java
+ code.name.score.octave.providers.SongPlayCountStore
+ code.name.score.octave.providers.SongPlayCountStore$SongPlayCountColumns
+code/name/score/octave/helper/M3UConstants.java
+ code.name.score.octave.helper.M3UConstants
+code/name/score/octave/views/BaselineGridTextView.java
+ code.name.score.octave.views.BaselineGridTextView
+code/name/score/octave/db/PlayCountDao_Impl.java
+ code.name.score.octave.db.PlayCountDao_Impl
+ code.name.score.octave.db.PlayCountDao_Impl$1
+ code.name.score.octave.db.PlayCountDao_Impl$2
+ code.name.score.octave.db.PlayCountDao_Impl$3
+ code.name.score.octave.db.PlayCountDao_Impl$4
+ code.name.score.octave.db.PlayCountDao_Impl$5
+code/name/score/octave/model/lyrics/AbsSynchronizedLyrics.java
+ code.name.score.octave.model.lyrics.AbsSynchronizedLyrics
+code/name/score/octave/misc/LagTracker.java
+ code.name.score.octave.misc.LagTracker
+code/name/score/octave/providers/MusicPlaybackQueueStore.java
+ code.name.score.octave.providers.MusicPlaybackQueueStore
+code/name/score/octave/util/LyricUtil.java
+ code.name.score.octave.util.LyricUtil
+code/name/score/octave/util/PlaylistsUtil.java
+ code.name.score.octave.util.PlaylistsUtil
+code/name/score/octave/glide/UserProfileGlideRequest.java
+ code.name.score.octave.glide.UserProfileGlideRequest
+ code.name.score.octave.glide.UserProfileGlideRequest$BitmapBuilder
+ code.name.score.octave.glide.UserProfileGlideRequest$Builder
+code/name/score/octave/glide/audiocover/AudioFileCoverUtils.java
+ code.name.score.octave.glide.audiocover.AudioFileCoverUtils
+code/name/score/octave/util/CalendarUtil.java
+ code.name.score.octave.util.CalendarUtil
+code/name/score/octave/util/RetroUtil.java
+ code.name.score.octave.util.RetroUtil
+code/name/score/octave/views/SeekArc.java
+ code.name.score.octave.views.SeekArc
+ code.name.score.octave.views.SeekArc$OnSeekArcChangeListener
+code/name/score/octave/adapter/base/MediaEntryViewHolder.java
+ code.name.score.octave.adapter.base.MediaEntryViewHolder
+code/name/score/octave/service/PlaybackHandler.java
+ code.name.score.octave.service.PlaybackHandler
+code/name/score/octave/db/PlaylistDao_Impl.java
+ code.name.score.octave.db.PlaylistDao_Impl
+ code.name.score.octave.db.PlaylistDao_Impl$1
+ code.name.score.octave.db.PlaylistDao_Impl$10
+ code.name.score.octave.db.PlaylistDao_Impl$11
+ code.name.score.octave.db.PlaylistDao_Impl$12
+ code.name.score.octave.db.PlaylistDao_Impl$13
+ code.name.score.octave.db.PlaylistDao_Impl$14
+ code.name.score.octave.db.PlaylistDao_Impl$15
+ code.name.score.octave.db.PlaylistDao_Impl$16
+ code.name.score.octave.db.PlaylistDao_Impl$17
+ code.name.score.octave.db.PlaylistDao_Impl$18
+ code.name.score.octave.db.PlaylistDao_Impl$19
+ code.name.score.octave.db.PlaylistDao_Impl$2
+ code.name.score.octave.db.PlaylistDao_Impl$20
+ code.name.score.octave.db.PlaylistDao_Impl$3
+ code.name.score.octave.db.PlaylistDao_Impl$4
+ code.name.score.octave.db.PlaylistDao_Impl$5
+ code.name.score.octave.db.PlaylistDao_Impl$6
+ code.name.score.octave.db.PlaylistDao_Impl$7
+ code.name.score.octave.db.PlaylistDao_Impl$8
+ code.name.score.octave.db.PlaylistDao_Impl$9
+code/name/score/octave/misc/CustomFragmentStatePagerAdapter.java
+ code.name.score.octave.misc.CustomFragmentStatePagerAdapter
+code/name/score/octave/activities/WhatsNewActivity.java
+ code.name.score.octave.activities.WhatsNewActivity

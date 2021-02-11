@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">49783304805-rnlcmmaadhe491q7qe4u3dgp7mmhgedd.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">49783304805</string>
+    <string name="google_api_key" translatable="false">AIzaSyBP6MY7khYPzfzqZ2JMF3CRprCh99RKo4Y</string>
+    <string name="google_app_id" translatable="false">1:49783304805:android:f08f0a6e520f59a398cc8c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBP6MY7khYPzfzqZ2JMF3CRprCh99RKo4Y</string>
+    <string name="google_storage_bucket" translatable="false">octave-220.appspot.com</string>
+    <string name="project_id" translatable="false">octave-220</string>
+</resources>

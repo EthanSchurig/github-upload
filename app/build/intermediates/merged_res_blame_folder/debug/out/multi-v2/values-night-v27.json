@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ethan\\Desktop\\octave\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v27\\values-night-v27.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ethan\\Desktop\\octave\\app\\src\\main\\res\\values-night-v27\\styles.xml",
+                    "from": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "660",
+                        "endLines": "31",
+                        "endColumns": "12",
+                        "endOffsets": "1793"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "17",
+                        "endColumns": "12",
+                        "endOffsets": "1188"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/octave.iml" filepath="$PROJECT_DIR$/.idea/modules/octave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/octave.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/octave.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appthemehelper/octave.appthemehelper.iml" filepath="$PROJECT_DIR$/.idea/modules/appthemehelper/octave.appthemehelper.iml" />
+    </modules>
+  </component>
+</project>

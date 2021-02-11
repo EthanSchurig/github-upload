@@ -1,0 +1,713 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="code.name.score.octave"
+4    android:versionCode="20010"
+5    android:versionName="1.1_0210202159" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:6:5-68
+11-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+12-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:7:5-75
+12-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:7:22-72
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:8:5-68
+13-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:8:22-65
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:9:5-80
+14-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:9:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:10:5-81
+15-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:11:5-67
+16-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:12:5-79
+17-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+18-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:13:5-75
+18-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:13:22-72
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:14:5-77
+19-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:14:22-74
+20    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+20-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:15:5-17:47
+20-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:16:9-57
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:18:5-81
+21-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:18:22-78
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:5-110
+22-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\f5c8341b0706e81c7ef81afb448367f5\jetified-debug-db-base-1.0.6\AndroidManifest.xml:30:5-76
+23-->[com.amitshekhar.android:debug-db-base:1.0.6] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\f5c8341b0706e81c7ef81afb448367f5\jetified-debug-db-base-1.0.6\AndroidManifest.xml:30:22-73
+24    <uses-permission android:name="com.android.vending.BILLING" />
+24-->[com.android.billingclient:billing-ktx:3.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\29ace8ed64a399d7edf6a4b49ce2e734\jetified-billing-ktx-3.0.2\AndroidManifest.xml:9:5-67
+24-->[com.android.billingclient:billing-ktx:3.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\29ace8ed64a399d7edf6a4b49ce2e734\jetified-billing-ktx-3.0.2\AndroidManifest.xml:9:22-64
+25
+26    <application
+26-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:21:5-255:19
+27        android:name="code.name.score.octave.App"
+27-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:22:9-50
+28        android:allowBackup="true"
+28-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:23:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.3.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\84ef52f8afaf4078f007d757274f2974\core-1.3.2\AndroidManifest.xml:24:18-86
+30        android:configChanges="locale|layoutDirection"
+30-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:24:9-55
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:25:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:26:9-41
+34        android:requestLegacyExternalStorage="true"
+34-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:27:9-52
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:28:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:29:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.octave.FollowSystem"
+38-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:30:9-57
+39        android:usesCleartextTraffic="false" >
+39-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:31:9-45
+40        <activity
+40-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:34:9-107:20
+41            android:name="code.name.score.octave.activities.MainActivity"
+41-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:35:13-74
+42            android:label="@string/app_name"
+42-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:36:13-45
+43            android:theme="@style/SplashTheme" >
+43-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:37:13-47
+44            <intent-filter>
+44-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:38:13-45:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:39:17-69
+45-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:39:25-66
+46                <action android:name="android.intent.action.MUSIC_PLAYER" />
+46-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:40:17-77
+46-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:40:25-74
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:42:17-77
+48-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:42:27-74
+49                <category android:name="android.intent.category.APP_MUSIC" />
+49-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:43:17-78
+49-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:43:27-75
+50                <category android:name="android.intent.category.DEFAULT" />
+50-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:17-76
+50-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:27-73
+51            </intent-filter>
+52            <intent-filter>
+52-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:46:13-50:29
+53                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+53-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:47:17-86
+53-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:47:25-83
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:17-76
+55-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:27-73
+56            </intent-filter>
+57            <intent-filter>
+57-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:51:13-61:29
+58                <action android:name="android.intent.action.VIEW" />
+58-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:52:17-69
+58-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:52:25-66
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:17-76
+60-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:27-73
+61
+62                <data android:scheme="content" />
+62-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+62-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:23-47
+63                <data android:mimeType="audio/*" />
+63-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+63-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+64                <data android:mimeType="application/ogg" />
+64-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+64-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+65                <data android:mimeType="application/x-ogg" />
+65-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+65-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+66                <data android:mimeType="application/itunes" />
+66-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+66-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+67            </intent-filter>
+68            <intent-filter>
+68-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:62:13-72:29
+69                <action android:name="android.intent.action.VIEW" />
+69-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:52:17-69
+69-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:52:25-66
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:17-76
+71-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:27-73
+72
+73                <data android:scheme="file" />
+73-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+73-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:23-47
+74                <data android:mimeType="audio/*" />
+74-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+74-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+75                <data android:mimeType="application/ogg" />
+75-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+75-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+76                <data android:mimeType="application/x-ogg" />
+76-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+76-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+77                <data android:mimeType="application/itunes" />
+77-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+77-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+78            </intent-filter>
+79            <intent-filter>
+79-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:73:13-84:29
+80                <action android:name="android.intent.action.VIEW" />
+80-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:52:17-69
+80-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:52:25-66
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:17-76
+82-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:27-73
+83                <category android:name="android.intent.category.BROWSABLE" />
+83-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:77:17-78
+83-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:77:27-75
+84
+85                <data android:scheme="http" />
+85-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+85-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:23-47
+86                <data android:mimeType="audio/*" />
+86-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+86-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+87                <data android:mimeType="application/ogg" />
+87-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+87-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+88                <data android:mimeType="application/x-ogg" />
+88-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+88-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+89                <data android:mimeType="application/itunes" />
+89-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+89-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+90            </intent-filter>
+91            <intent-filter>
+91-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:85:13-93:29
+92                <action android:name="android.intent.action.VIEW" />
+92-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:52:17-69
+92-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:52:25-66
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:17-76
+94-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:27-73
+95
+96                <data android:mimeType="vnd.android.cursor.dir/playlist" />
+96-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+96-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+97                <data android:mimeType="vnd.android.cursor.dir/albums" />
+97-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+97-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+98                <data android:mimeType="vnd.android.cursor.dir/artists" />
+98-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+98-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+99            </intent-filter>
+100            <intent-filter>
+100-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:94:13-98:29
+101                <action android:name="com.cyanogenmod.eleven.AUDIO_PLAYER" />
+101-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:95:17-78
+101-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:95:25-75
+102
+103                <category android:name="android.intent.category.DEFAULT" />
+103-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:17-76
+103-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:27-73
+104            </intent-filter>
+105            <intent-filter>
+105-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:99:13-106:29
+106                <action android:name="android.intent.action.PICK" />
+106-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:100:17-69
+106-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:100:25-66
+107
+108                <category android:name="android.intent.category.DEFAULT" />
+108-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:17-76
+108-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:44:27-73
+109                <category android:name="android.intent.category.OPENABLE" />
+109-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:103:17-77
+109-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:103:27-74
+110
+111                <data android:mimeType="vnd.android.cursor.dir/audio" />
+111-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:56:17-50
+111-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:57:23-49
+112            </intent-filter>
+113        </activity>
+114        <activity android:name="code.name.score.octave.activities.PlayingQueueActivity" />
+114-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:108:9-91
+114-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:108:19-88
+115        <activity android:name="code.name.score.octave.activities.SettingsActivity" />
+115-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:109:9-87
+115-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:109:19-84
+116        <activity android:name="code.name.score.octave.activities.tageditor.AlbumTagEditorActivity" />
+116-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:110:9-103
+116-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:110:19-100
+117        <activity android:name="code.name.score.octave.activities.tageditor.SongTagEditorActivity" />
+117-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:111:9-102
+117-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:111:19-99
+118        <activity android:name="code.name.score.octave.activities.LyricsActivity" />
+118-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:112:9-85
+118-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:112:19-82
+119        <activity android:name="code.name.score.octave.activities.UserInfoActivity" />
+119-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:113:9-87
+119-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:113:19-84
+120        <activity android:name="code.name.score.octave.activities.LicenseActivity" />
+120-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:114:9-86
+120-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:114:19-83
+121        <activity android:name="code.name.score.octave.activities.WhatsNewActivity" />
+121-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:115:9-87
+121-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:115:19-84
+122        <activity android:name="code.name.score.octave.activities.DriveModeActivity" />
+122-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:116:9-88
+122-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:116:19-85
+123        <activity android:name="code.name.score.octave.activities.PermissionActivity" />
+123-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:117:9-89
+123-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:117:19-86
+124        <activity android:name="code.name.score.octave.activities.LockScreenActivity" />
+124-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:118:9-89
+124-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:118:19-86
+125        <activity
+125-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:120:9-123:75
+126            android:name="code.name.score.octave.appshortcuts.AppShortcutLauncherActivity"
+126-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:121:13-91
+127            android:launchMode="singleInstance"
+127-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:122:13-48
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:123:13-72
+129        <activity
+129-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:125:9-127:50
+130            android:name="code.name.score.octave.activities.saf.SAFGuideActivity"
+130-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:126:13-82
+131            android:theme="@style/Theme.Intro" />
+131-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:127:13-47
+132
+133        <provider
+134            android:name="code.name.score.octave.misc.GenericFileProvider"
+134-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:130:13-75
+135            android:authorities="code.name.score.octave.provider"
+135-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:131:13-60
+136            android:exported="false"
+136-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:132:13-37
+137            android:grantUriPermissions="true" >
+137-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:133:13-47
+138            <meta-data
+138-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:134:13-136:58
+139                android:name="android.support.FILE_PROVIDER_PATHS"
+139-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:135:17-67
+140                android:resource="@xml/provider_paths" />
+140-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:136:17-55
+141        </provider>
+142        <provider
+143            android:name="androidx.core.content.FileProvider"
+143-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:141:13-62
+144            android:authorities="code.name.score.octave"
+144-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:142:13-51
+145            android:exported="false"
+145-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:143:13-37
+146            android:grantUriPermissions="true" >
+146-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:144:13-47
+147            <meta-data
+147-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:134:13-136:58
+148                android:name="android.support.FILE_PROVIDER_PATHS"
+148-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:135:17-67
+149                android:resource="@xml/provider_paths" />
+149-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:136:17-55
+150        </provider>
+151
+152        <receiver android:name="code.name.score.octave.service.MediaButtonIntentReceiver" >
+152-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:150:9-154:20
+152-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:150:19-90
+153            <intent-filter>
+153-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:151:13-153:29
+154                <action android:name="android.intent.action.MEDIA_BUTTON" />
+154-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:152:17-77
+154-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:152:25-74
+155            </intent-filter>
+156        </receiver>
+157        <receiver android:name="code.name.score.octave.appwidgets.BootReceiver" >
+157-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:156:9-161:20
+157-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:156:19-80
+158            <intent-filter>
+158-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:157:13-160:29
+159                <action android:name="android.intent.action.BOOT_COMPLETED" />
+159-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:158:17-79
+159-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:158:25-76
+160                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+160-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:159:17-82
+160-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:159:25-79
+161            </intent-filter>
+162        </receiver>
+163        <receiver
+163-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:163:9-174:20
+164            android:name="code.name.score.octave.appwidgets.AppWidgetBig"
+164-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:164:13-74
+165            android:exported="false"
+165-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:165:13-37
+166            android:label="@string/app_widget_big_name" >
+166-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:166:13-56
+167            <intent-filter>
+167-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:167:13-169:29
+168                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+168-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:168:17-84
+168-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:168:25-81
+169            </intent-filter>
+170
+171            <meta-data
+171-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:171:13-173:63
+172                android:name="android.appwidget.provider"
+172-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:172:17-58
+173                android:resource="@xml/app_widget_big_info" />
+173-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:173:17-60
+174        </receiver>
+175        <receiver
+175-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:176:9-187:20
+176            android:name="code.name.score.octave.appwidgets.AppWidgetClassic"
+176-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:177:13-78
+177            android:exported="false"
+177-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:178:13-37
+178            android:label="@string/app_widget_classic_name" >
+178-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:179:13-60
+179            <intent-filter>
+179-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:167:13-169:29
+180                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+180-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:168:17-84
+180-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:168:25-81
+181            </intent-filter>
+182
+183            <meta-data
+183-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:171:13-173:63
+184                android:name="android.appwidget.provider"
+184-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:172:17-58
+185                android:resource="@xml/app_widget_classic_info" />
+185-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:173:17-60
+186        </receiver>
+187        <receiver
+187-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:188:9-199:20
+188            android:name="code.name.score.octave.appwidgets.AppWidgetSmall"
+188-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:189:13-76
+189            android:exported="false"
+189-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:190:13-37
+190            android:label="@string/app_widget_small_name" >
+190-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:191:13-58
+191            <intent-filter>
+191-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:167:13-169:29
+192                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+192-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:168:17-84
+192-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:168:25-81
+193            </intent-filter>
+194
+195            <meta-data
+195-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:171:13-173:63
+196                android:name="android.appwidget.provider"
+196-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:172:17-58
+197                android:resource="@xml/app_widget_small_info" />
+197-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:173:17-60
+198        </receiver>
+199        <receiver
+199-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:200:9-211:20
+200            android:name="code.name.score.octave.appwidgets.AppWidgetText"
+200-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:201:13-75
+201            android:exported="false"
+201-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:202:13-37
+202            android:label="@string/app_widget_text_name" >
+202-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:203:13-57
+203            <intent-filter>
+203-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:167:13-169:29
+204                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+204-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:168:17-84
+204-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:168:25-81
+205            </intent-filter>
+206
+207            <meta-data
+207-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:171:13-173:63
+208                android:name="android.appwidget.provider"
+208-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:172:17-58
+209                android:resource="@xml/app_widget_text" />
+209-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:173:17-60
+210        </receiver>
+211        <receiver
+211-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:212:9-223:20
+212            android:name="code.name.score.octave.appwidgets.AppWidgetCard"
+212-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:213:13-75
+213            android:exported="false"
+213-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:214:13-37
+214            android:label="@string/app_widget_card_name" >
+214-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:215:13-57
+215            <intent-filter>
+215-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:167:13-169:29
+216                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+216-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:168:17-84
+216-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:168:25-81
+217            </intent-filter>
+218
+219            <meta-data
+219-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:171:13-173:63
+220                android:name="android.appwidget.provider"
+220-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:172:17-58
+221                android:resource="@xml/app_widget_card_info" />
+221-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:173:17-60
+222        </receiver>
+223
+224        <service
+224-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:225:9-234:19
+225            android:name="code.name.score.octave.service.MusicService"
+225-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:226:13-71
+226            android:enabled="true"
+226-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:227:13-35
+227            android:exported="true"
+227-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:228:13-36
+228            android:label="@string/app_name" >
+228-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:229:13-45
+229            <intent-filter>
+229-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:231:13-233:29
+230                <action android:name="android.media.browse.MediaBrowserService" />
+230-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:232:17-83
+230-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:232:25-80
+231            </intent-filter>
+232        </service>
+233
+234        <meta-data
+234-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:236:9-238:35
+235            android:name="android.max_aspect"
+235-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:237:13-46
+236            android:value="2.1" />
+236-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:238:13-32
+237        <meta-data
+237-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:240:9-242:36
+238            android:name="com.lge.support.SPLIT_WINDOW"
+238-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:241:13-56
+239            android:value="true" />
+239-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:242:13-33
+240        <meta-data
+240-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:244:9-246:43
+241            android:name="code.name.score.octave.glide.octaveGlideModule"
+241-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:245:13-74
+242            android:value="GlideModule" />
+242-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:246:13-40
+243        <meta-data
+243-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:248:9-250:43
+244            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+244-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:249:13-84
+245            android:value="GlideModule" />
+245-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:250:13-40
+246        <meta-data
+246-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:252:9-254:36
+247            android:name="com.android.vending.splits.required"
+247-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:253:13-63
+248            android:value="true" />
+248-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:254:13-33
+249
+250        <provider
+250-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\01cb0820f0005f531b1b5a3c1487debd\jetified-debug-db-1.0.6\AndroidManifest.xml:12:9-16:40
+251            android:name="com.amitshekhar.debug.DebugDBInitProvider"
+251-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\01cb0820f0005f531b1b5a3c1487debd\jetified-debug-db-1.0.6\AndroidManifest.xml:13:13-69
+252            android:authorities="code.name.score.octave.DebugDBInitProvider"
+252-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\01cb0820f0005f531b1b5a3c1487debd\jetified-debug-db-1.0.6\AndroidManifest.xml:14:13-71
+253            android:enabled="true"
+253-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\01cb0820f0005f531b1b5a3c1487debd\jetified-debug-db-1.0.6\AndroidManifest.xml:15:13-35
+254            android:exported="false" />
+254-->[com.amitshekhar.android:debug-db:1.0.6] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\01cb0820f0005f531b1b5a3c1487debd\jetified-debug-db-1.0.6\AndroidManifest.xml:16:13-37
+255
+256        <activity
+256-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:15:9-18:68
+257            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+257-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:16:13-81
+258            android:screenOrientation="unspecified"
+258-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:17:13-52
+259            android:theme="@style/Theme.Transparent.ImagePicker" />
+259-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:18:13-65
+260        <activity
+260-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:19:9-22:72
+261            android:name="com.yalantis.ucrop.UCropActivity"
+261-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:20:13-60
+262            android:screenOrientation="portrait"
+262-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:21:13-49
+263            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+263-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:22:13-69
+264
+265        <provider
+265-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:24:9-32:20
+266            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+266-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:25:13-85
+267            android:authorities="code.name.score.octave.imagepicker.provider"
+267-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:26:13-72
+268            android:exported="false"
+268-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:27:13-37
+269            android:grantUriPermissions="true" >
+269-->[com.github.dhaval2404:imagepicker:1.7.1] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\9c519a00577b35990c4031111b57c6f1\jetified-imagepicker-1.7.1\AndroidManifest.xml:28:13-47
+270            <meta-data
+270-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:134:13-136:58
+271                android:name="android.support.FILE_PROVIDER_PATHS"
+271-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:135:17-67
+272                android:resource="@xml/image_picker_provider_paths" />
+272-->C:\Users\Ethan\Desktop\octave\app\src\main\AndroidManifest.xml:136:17-55
+273        </provider>
+274
+275        <service
+275-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\51a3004acee080b8f4ba8658b1cfbbf2\jetified-firebase-analytics-ktx-18.0.2\AndroidManifest.xml:8:9-14:19
+276            android:name="com.google.firebase.components.ComponentDiscoveryService"
+276-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\51a3004acee080b8f4ba8658b1cfbbf2\jetified-firebase-analytics-ktx-18.0.2\AndroidManifest.xml:9:13-84
+277            android:directBootAware="true"
+277-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\2a88defffcdc2d89940286cc39bfa804\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+278            android:exported="false" >
+278-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\51a3004acee080b8f4ba8658b1cfbbf2\jetified-firebase-analytics-ktx-18.0.2\AndroidManifest.xml:10:13-37
+279            <meta-data
+279-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\51a3004acee080b8f4ba8658b1cfbbf2\jetified-firebase-analytics-ktx-18.0.2\AndroidManifest.xml:11:13-13:85
+280                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+280-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\51a3004acee080b8f4ba8658b1cfbbf2\jetified-firebase-analytics-ktx-18.0.2\AndroidManifest.xml:12:17-126
+281                android:value="com.google.firebase.components.ComponentRegistrar" />
+281-->[com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\51a3004acee080b8f4ba8658b1cfbbf2\jetified-firebase-analytics-ktx-18.0.2\AndroidManifest.xml:13:17-82
+282            <meta-data
+282-->[com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\c2c9f3d0140227a9c6feb7bad34a6afe\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:15:13-17:85
+283                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+283-->[com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\c2c9f3d0140227a9c6feb7bad34a6afe\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:16:17-113
+284                android:value="com.google.firebase.components.ComponentRegistrar" />
+284-->[com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\c2c9f3d0140227a9c6feb7bad34a6afe\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:17:17-82
+285            <meta-data
+285-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\06302ae40eeb88694a7b2b7a23d4d41e\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:30:13-32:85
+286                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+286-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\06302ae40eeb88694a7b2b7a23d4d41e\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:31:17-139
+287                android:value="com.google.firebase.components.ComponentRegistrar" />
+287-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\06302ae40eeb88694a7b2b7a23d4d41e\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:32:17-82
+288            <meta-data
+288-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\97c30b8c5763c15058daa0a9896b77db\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+289                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+289-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\97c30b8c5763c15058daa0a9896b77db\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+290                android:value="com.google.firebase.components.ComponentRegistrar" />
+290-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\97c30b8c5763c15058daa0a9896b77db\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+291            <!--
+292                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+293                clients to use it as well, by defining this registrar in their own core/common library.
+294            -->
+295            <meta-data
+295-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\2a88defffcdc2d89940286cc39bfa804\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+296                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+296-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\2a88defffcdc2d89940286cc39bfa804\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+297                android:value="com.google.firebase.components.ComponentRegistrar" />
+297-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\2a88defffcdc2d89940286cc39bfa804\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+298        </service>
+299
+300        <provider
+300-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\2a88defffcdc2d89940286cc39bfa804\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+301            android:name="com.google.firebase.provider.FirebaseInitProvider"
+301-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\2a88defffcdc2d89940286cc39bfa804\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+302            android:authorities="code.name.score.octave.firebaseinitprovider"
+302-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\2a88defffcdc2d89940286cc39bfa804\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+303            android:directBootAware="true"
+303-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\2a88defffcdc2d89940286cc39bfa804\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+304            android:exported="false"
+304-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\2a88defffcdc2d89940286cc39bfa804\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+305            android:initOrder="100" />
+305-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\2a88defffcdc2d89940286cc39bfa804\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+306
+307        <receiver
+307-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:29:9-33:20
+308            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+308-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:30:13-85
+309            android:enabled="true"
+309-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:31:13-35
+310            android:exported="false" >
+310-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:32:13-37
+311        </receiver>
+312
+313        <service
+313-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:35:9-38:40
+314            android:name="com.google.android.gms.measurement.AppMeasurementService"
+314-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:36:13-84
+315            android:enabled="true"
+315-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:37:13-35
+316            android:exported="false" />
+316-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:38:13-37
+317        <service
+317-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:39:9-43:72
+318            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+318-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:40:13-87
+319            android:enabled="true"
+319-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:41:13-35
+320            android:exported="false"
+320-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:42:13-37
+321            android:permission="android.permission.BIND_JOB_SERVICE" />
+321-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\64b3b1975b3e8dea8e61a60a54776581\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:43:13-69
+322
+323        <meta-data
+323-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0a67d6c3a3aa45b7f178b486d7b4f4e7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+324            android:name="com.google.android.gms.version"
+324-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0a67d6c3a3aa45b7f178b486d7b4f4e7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+325            android:value="@integer/google_play_services_version" />
+325-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0a67d6c3a3aa45b7f178b486d7b4f4e7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+326
+327        <service
+327-->[androidx.room:room-runtime:2.2.5] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\e5eb4d7b63e3b86a2d779ec12ce59e5d\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+328            android:name="androidx.room.MultiInstanceInvalidationService"
+328-->[androidx.room:room-runtime:2.2.5] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\e5eb4d7b63e3b86a2d779ec12ce59e5d\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+329            android:directBootAware="true"
+329-->[androidx.room:room-runtime:2.2.5] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\e5eb4d7b63e3b86a2d779ec12ce59e5d\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+330            android:exported="false" />
+330-->[androidx.room:room-runtime:2.2.5] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\e5eb4d7b63e3b86a2d779ec12ce59e5d\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+331
+332        <meta-data
+332-->[com.android.billingclient:billing:3.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\58eaf712068c4a9f2e9703ea459a6eb3\jetified-billing-3.0.2\AndroidManifest.xml:13:9-15:37
+333            android:name="com.google.android.play.billingclient.version"
+333-->[com.android.billingclient:billing:3.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\58eaf712068c4a9f2e9703ea459a6eb3\jetified-billing-3.0.2\AndroidManifest.xml:14:13-73
+334            android:value="3.0.2" />
+334-->[com.android.billingclient:billing:3.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\58eaf712068c4a9f2e9703ea459a6eb3\jetified-billing-3.0.2\AndroidManifest.xml:15:13-34
+335
+336        <activity
+336-->[com.android.billingclient:billing:3.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\58eaf712068c4a9f2e9703ea459a6eb3\jetified-billing-3.0.2\AndroidManifest.xml:17:9-21:75
+337            android:name="com.android.billingclient.api.ProxyBillingActivity"
+337-->[com.android.billingclient:billing:3.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\58eaf712068c4a9f2e9703ea459a6eb3\jetified-billing-3.0.2\AndroidManifest.xml:18:13-78
+338            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+338-->[com.android.billingclient:billing:3.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\58eaf712068c4a9f2e9703ea459a6eb3\jetified-billing-3.0.2\AndroidManifest.xml:19:13-96
+339            android:exported="false"
+339-->[com.android.billingclient:billing:3.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\58eaf712068c4a9f2e9703ea459a6eb3\jetified-billing-3.0.2\AndroidManifest.xml:20:13-37
+340            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+340-->[com.android.billingclient:billing:3.0.2] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\58eaf712068c4a9f2e9703ea459a6eb3\jetified-billing-3.0.2\AndroidManifest.xml:21:13-72
+341        <activity
+341-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:12:5-271
+342            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+342-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:12:15-102
+343            android:enabled="false"
+343-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:12:103-126
+344            android:exported="false"
+344-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:12:127-151
+345            android:launchMode="singleInstance"
+345-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:12:204-239
+346            android:process=":playcore_missing_splits_activity"
+346-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:12:152-203
+347            android:stateNotNeeded="true" />
+347-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:12:240-269
+348        <activity
+348-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:13:5-226
+349            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+349-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:13:15-95
+350            android:enabled="false"
+350-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:13:96-119
+351            android:exported="false"
+351-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:13:120-144
+352            android:stateNotNeeded="true"
+352-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:13:145-174
+353            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+353-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:13:175-224
+354        <service
+354-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:16:5-145
+355            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+355-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:16:14-95
+356            android:enabled="false"
+356-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:16:96-119
+357            android:exported="true" />
+357-->[com.google.android.play:core:1.8.0] C:\Users\Ethan\.gradle\caches\transforms-2\files-2.1\0ccbf15522ba39a3dee286852d300f17\jetified-core-1.8.0\AndroidManifest.xml:16:120-143
+358    </application>
+359
+360</manifest>

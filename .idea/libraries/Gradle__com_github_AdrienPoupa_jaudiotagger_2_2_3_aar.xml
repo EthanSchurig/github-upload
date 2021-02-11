@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AdrienPoupa:jaudiotagger:2.2.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/61a391ea0a0a28de1d3c118984159f62/jetified-jaudiotagger-2.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ffd16319a2f54b8c8554b320c4300f1b/jetified-jaudiotagger-2.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3857d48c3997f4548e8b1bf57a04bae7/jetified-jaudiotagger-2.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/35176d09a938977edd23508ef9e3c229/jetified-jaudiotagger-2.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/35176d09a938977edd23508ef9e3c229/jetified-jaudiotagger-2.2.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/35176d09a938977edd23508ef9e3c229/jetified-jaudiotagger-2.2.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.AdrienPoupa/jaudiotagger/2.2.3/17844878b740a959782e6e90f2ea685607095ffa/jaudiotagger-2.2.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.AdrienPoupa/jaudiotagger/2.2.3/42bdc57c8d94f8778641a7a51f31cfc923a6b044/jaudiotagger-2.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

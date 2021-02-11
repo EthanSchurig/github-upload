@@ -1,0 +1,63 @@
+# compiler: R8
+# compiler_version: 2.1.86
+# min_api: 21
+# pg_map_id: 6f642b7
+# common_typos_disable
+androidx.lifecycle.DefaultLifecycleObserver$-CC -> androidx.lifecycle.DefaultLifecycleObserver$-CC:
+    void androidx.lifecycle.DefaultLifecycleObserver.onCreate(androidx.lifecycle.LifecycleOwner) -> $default$onCreate
+    void androidx.lifecycle.DefaultLifecycleObserver.onDestroy(androidx.lifecycle.LifecycleOwner) -> $default$onDestroy
+    void androidx.lifecycle.DefaultLifecycleObserver.onPause(androidx.lifecycle.LifecycleOwner) -> $default$onPause
+    void androidx.lifecycle.DefaultLifecycleObserver.onResume(androidx.lifecycle.LifecycleOwner) -> $default$onResume
+    void androidx.lifecycle.DefaultLifecycleObserver.onStart(androidx.lifecycle.LifecycleOwner) -> $default$onStart
+    void androidx.lifecycle.DefaultLifecycleObserver.onStop(androidx.lifecycle.LifecycleOwner) -> $default$onStop
+code.name.score.appthemehelper.common.prefs.supportv7.dialogs.ATEListPreferenceDialogFragmentCompat -> code.name.score.appthemehelper.common.prefs.supportv7.dialogs.ATEListPreferenceDialogFragmentCompat:
+    1:1:void lambda$onPrepareDialogBuilder$0(android.content.DialogInterface,int):0:0 -> lambda$onPrepareDialogBuilder$0$ATEListPreferenceDialogFragmentCompat
+    1:1:void lambda$onPrepareDialogBuilder$0$ATEListPreferenceDialogFragmentCompat(android.content.DialogInterface,int):0 -> lambda$onPrepareDialogBuilder$0$ATEListPreferenceDialogFragmentCompat
+code.name.score.octave.activities.-$$Lambda$WhatsNewActivity$rYh9gK-FST4ssy66eLmNB5A186o -> code.name.score.octave.activities.-$$Lambda$WhatsNewActivity$rYh9gK-FST4ssy66eLmNB5A186o:
+    1:1:void code.name.score.octave.activities.WhatsNewActivity.lambda$onCreate$0(android.view.View):0:0 -> onClick
+    1:1:void code.name.score.octave.activities.WhatsNewActivity.lambda$onCreate$0$WhatsNewActivity(android.view.View):0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+code.name.score.octave.activities.WhatsNewActivity -> code.name.score.octave.activities.WhatsNewActivity:
+    1:1:void lambda$onCreate$0(android.view.View):0:0 -> lambda$onCreate$0$WhatsNewActivity
+    1:1:void lambda$onCreate$0$WhatsNewActivity(android.view.View):0 -> lambda$onCreate$0$WhatsNewActivity
+code.name.score.octave.dialogs.-$$Lambda$BlacklistFolderChooserDialog$G6ATOoKOIPnw_jr2eP18QPKE8fo -> code.name.score.octave.dialogs.-$$Lambda$BlacklistFolderChooserDialog$G6ATOoKOIPnw_jr2eP18QPKE8fo:
+    1:1:void code.name.score.octave.dialogs.BlacklistFolderChooserDialog.lambda$onCreateDialog$1(com.afollestad.materialdialogs.MaterialDialog,com.afollestad.materialdialogs.DialogAction):0:0 -> onClick
+    1:1:void code.name.score.octave.dialogs.BlacklistFolderChooserDialog.lambda$onCreateDialog$1$BlacklistFolderChooserDialog(com.afollestad.materialdialogs.MaterialDialog,com.afollestad.materialdialogs.DialogAction):0 -> onClick
+    1:1:void onClick(com.afollestad.materialdialogs.MaterialDialog,com.afollestad.materialdialogs.DialogAction):0 -> onClick
+code.name.score.octave.dialogs.BlacklistFolderChooserDialog -> code.name.score.octave.dialogs.BlacklistFolderChooserDialog:
+    1:1:void lambda$onCreateDialog$0(com.afollestad.materialdialogs.MaterialDialog,com.afollestad.materialdialogs.DialogAction):0:0 -> lambda$onCreateDialog$0$BlacklistFolderChooserDialog
+    1:1:void lambda$onCreateDialog$0$BlacklistFolderChooserDialog(com.afollestad.materialdialogs.MaterialDialog,com.afollestad.materialdialogs.DialogAction):0 -> lambda$onCreateDialog$0$BlacklistFolderChooserDialog
+    1:1:void lambda$onCreateDialog$1(com.afollestad.materialdialogs.MaterialDialog,com.afollestad.materialdialogs.DialogAction):0:0 -> lambda$onCreateDialog$1$BlacklistFolderChooserDialog
+    1:1:void lambda$onCreateDialog$1$BlacklistFolderChooserDialog(com.afollestad.materialdialogs.MaterialDialog,com.afollestad.materialdialogs.DialogAction):0 -> lambda$onCreateDialog$1$BlacklistFolderChooserDialog
+code.name.score.octave.fragments.folder.-$$Lambda$FoldersFragment$ListingFilesDialogAsyncTask$H8ku4fGjuG9ZBRsAu4_GPUQpqUY -> code.name.score.octave.fragments.folder.-$$Lambda$FoldersFragment$ListingFilesDialogAsyncTask$H8ku4fGjuG9ZBRsAu4_GPUQpqUY:
+    1:1:void code.name.score.octave.fragments.folder.FoldersFragment$ListingFilesDialogAsyncTask.lambda$createDialog$0(android.content.DialogInterface):0:0 -> onCancel
+    1:1:void code.name.score.octave.fragments.folder.FoldersFragment$ListingFilesDialogAsyncTask.lambda$createDialog$0$FoldersFragment$ListingFilesDialogAsyncTask(android.content.DialogInterface):0 -> onCancel
+    1:1:void onCancel(android.content.DialogInterface):0 -> onCancel
+code.name.score.octave.fragments.folder.-$$Lambda$FoldersFragment$ListingFilesDialogAsyncTask$wBw22M3AjzRD81R6giUfS6bXxPE -> code.name.score.octave.fragments.folder.-$$Lambda$FoldersFragment$ListingFilesDialogAsyncTask$wBw22M3AjzRD81R6giUfS6bXxPE:
+    1:1:void code.name.score.octave.fragments.folder.FoldersFragment$ListingFilesDialogAsyncTask.lambda$createDialog$1(android.content.DialogInterface):0:0 -> onDismiss
+    1:1:void code.name.score.octave.fragments.folder.FoldersFragment$ListingFilesDialogAsyncTask.lambda$createDialog$1$FoldersFragment$ListingFilesDialogAsyncTask(android.content.DialogInterface):0 -> onDismiss
+    1:1:void onDismiss(android.content.DialogInterface):0 -> onDismiss
+code.name.score.octave.fragments.folder.FoldersFragment -> code.name.score.octave.fragments.folder.FoldersFragment:
+    1:1:void lambda$onOptionsItemSelected$11(java.lang.String[]):0:0 -> lambda$onOptionsItemSelected$11$FoldersFragment
+    1:1:void lambda$onOptionsItemSelected$11$FoldersFragment(java.lang.String[]):0 -> lambda$onOptionsItemSelected$11$FoldersFragment
+code.name.score.octave.fragments.folder.FoldersFragment$ListingFilesDialogAsyncTask -> code.name.score.octave.fragments.folder.FoldersFragment$ListingFilesDialogAsyncTask:
+    1:1:void lambda$createDialog$0(android.content.DialogInterface):0:0 -> lambda$createDialog$0$FoldersFragment$ListingFilesDialogAsyncTask
+    1:1:void lambda$createDialog$0$FoldersFragment$ListingFilesDialogAsyncTask(android.content.DialogInterface):0 -> lambda$createDialog$0$FoldersFragment$ListingFilesDialogAsyncTask
+    1:1:void lambda$createDialog$1(android.content.DialogInterface):0:0 -> lambda$createDialog$1$FoldersFragment$ListingFilesDialogAsyncTask
+    1:1:void lambda$createDialog$1$FoldersFragment$ListingFilesDialogAsyncTask(android.content.DialogInterface):0 -> lambda$createDialog$1$FoldersFragment$ListingFilesDialogAsyncTask
+code.name.score.octave.lyrics.LrcView -> code.name.score.octave.lyrics.LrcView:
+    1:1:void lambda$setLabel$0(java.lang.String):0:0 -> lambda$setLabel$0$LrcView
+    1:1:void lambda$setLabel$0$LrcView(java.lang.String):0 -> lambda$setLabel$0$LrcView
+me.zhanghai.android.fastscroll.FastScroller$ViewHelper$-CC -> me.zhanghai.android.fastscroll.FastScroller$ViewHelper$-CC:
+    java.lang.String me.zhanghai.android.fastscroll.FastScroller$ViewHelper.getPopupText() -> $default$getPopupText
+okhttp3.Authenticator$-CC -> okhttp3.Authenticator$-CC:
+    okhttp3.Request okhttp3.Authenticator.lambda$static$0(okhttp3.Route,okhttp3.Response) -> lambda$static$0
+okhttp3.Dns$-CC -> okhttp3.Dns$-CC:
+    java.util.List okhttp3.Dns.lambda$static$0(java.lang.String) -> lambda$static$0
+retrofit2.-$$Lambda$DefaultCallAdapterFactory$ExecutorCallbackCall$1$G9BY9eQQk64nBfFjfIpx-YzJzUo -> retrofit2.-$$Lambda$DefaultCallAdapterFactory$ExecutorCallbackCall$1$G9BY9eQQk64nBfFjfIpx-YzJzUo:
+    1:1:void retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1.lambda$onFailure$1(retrofit2.Callback,java.lang.Throwable):0:0 -> run
+    1:1:void retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1.lambda$onFailure$1$DefaultCallAdapterFactory$ExecutorCallbackCall$1(retrofit2.Callback,java.lang.Throwable):0 -> run
+    1:1:void run():0 -> run
+retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1 -> retrofit2.DefaultCallAdapterFactory$ExecutorCallbackCall$1:
+    1:1:void lambda$onFailure$1(retrofit2.Callback,java.lang.Throwable):0:0 -> lambda$onFailure$1$DefaultCallAdapterFactory$ExecutorCallbackCall$1
+    1:1:void lambda$onFailure$1$DefaultCallAdapterFactory$ExecutorCallbackCall$1(retrofit2.Callback,java.lang.Throwable):0 -> lambda$onFailure$1$DefaultCallAdapterFactory$ExecutorCallbackCall$1

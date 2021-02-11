@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "PACKAGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "code.name.score.octave",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 20010,
+      "versionName": "1.1_0210202159",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

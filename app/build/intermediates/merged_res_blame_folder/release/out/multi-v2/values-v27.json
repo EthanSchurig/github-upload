@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ethan\\Desktop\\octave\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v27\\values-v27.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ethan\\Desktop\\octave\\app\\src\\main\\res\\values-v27\\styles_parents.xml",
+                    "from": {
+                        "startLines": "31,16,51",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1668,660,2959",
+                        "endLines": "49,29,65",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "2953,1662,3999"
+                    },
+                    "to": {
+                        "startLines": "2,21,35",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,1345,2352",
+                        "endLines": "20,34,49",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "1340,2347,3392"
+                    }
+                }
+            ]
+        }
+    ]
+}
