@@ -8,7 +8,7 @@ color from a color palette.
 
 ### Home
 Where you can view your recently/top played artists, albums and
-favorite songs. No other music player has this feature.
+favorite songs.
 
 ### Included Features
 -  Base 3 themes (Clearly White, Kinda Dark and Just Black)
@@ -16,7 +16,6 @@ favorite songs. No other music player has this feature.
 -  Driving Mode
 -  Headset/Bluetooth support
 -  Music duration filter
--  Folder support - Play songs by folder
 -  Gapless playback
 -  Volume controls
 -  Carousel effect for album covers
@@ -35,7 +34,7 @@ favorite songs. No other music player has this feature.
 -  Build your playlist on the go
 
 In any case, you find or notice any bugs please report them by
-sending us an [e-mail](mailto:score.schurig@gmail.com). We will fix bugs as soon as
+sending us an [e-mail](mailto:twoscore.dev@gmail.com). We will fix bugs as soon as
 possible.
 If you have any feature suggestions, please create an issue with detailed information.
 
